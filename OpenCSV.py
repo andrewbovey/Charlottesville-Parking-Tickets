@@ -19,7 +19,7 @@ df = pd.read_csv('Parking_Tickets.csv')
 unique = df.Location.unique()
 fixed = [str(x) + ' Charlottesville, VA' for x in unique]
 
-API_KEY = 'AIzaSyBfR1UJkwMUfTLWwBNAMHDb5_MFpwIhUWY'
+API_KEY = 'This is private information'
 BACKOFF_TIME = 30
 RETURN_FULL_RESULTS = False
 
